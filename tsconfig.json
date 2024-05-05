@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+	  "target": "ESNext",
+	  "module": "commonjs",
+	  "moduleResolution": "node",
+	  "rootDir": "./src",
+	  "outDir": "./main",
+	  "baseUrl": "./",
+	  "paths": {
+		"@root/*": ["main/*"]
+	},
+	  "typeRoots": [
+		"@types",
+		"@root/types"
+	  ],
+	  "esModuleInterop": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "noImplicitThis": false,  // Set to false to disable
+	  "useUnknownInCatchVariables": false,  // Set to false to disable
+	  "noUnusedLocals": false,  // Set to false to disable
+	  "skipLibCheck": true,
+	  "resolveJsonModule": true,
+	  "strict": false
+	}
+  }

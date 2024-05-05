@@ -1,0 +1,36 @@
+{
+  "name": "tmg-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main/index.js",
+    "build": "tsc",
+    "server": "nodemon ./main/index.js",
+    "prepare": "husky || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.15.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.3",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.0",
+    "rest": "^2.0.0",
+    "semver": "^7.6.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.8",
+    "husky": "^9.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
